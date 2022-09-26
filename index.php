@@ -145,8 +145,8 @@
           
             <?php
 
-            // $mysqli=mysqli_connect("localhost","crmadmin_mmdbuser","@@admincrm22","crmadmin_mmdb");
-              $mysqli = new mysqli("localhost","root","","mmdb");
+            $mysqli=mysqli_connect("localhost","crmadmin_mmdbuser","@@admincrm22","crmadmin_mmdb");
+              // $mysqli = new mysqli("localhost","root","","mmdb");
 
               if ($mysqli -> connect_errno) {
                 echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
