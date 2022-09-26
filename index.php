@@ -131,15 +131,40 @@
               <li><i class="ri-check-double-line"></i> State oversear</li>
               <li><i class="ri-check-double-line"></i> Charismatic renewal Ministries FCT-II</li>
             </ul>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-
+            <hr>
             <p>
             The Ministry was led by God to adopt the Core Group system of Leadership. <br> This is a plural or group leadership and shared responsibility. The leader of the General Core Group (the highest leadership body of the ministry) becomes the leader of the Ministry and her Chief Executive Officer, otherwise called the General Overseer. <br>
             The current General Overseer is Dr. Cosmas Ilechukwu, who is also the 
             National Assistant General Secretary of PFN and on the board of reference of Oral Roberts University USA.
             </p>
             <a href="#" class="btn-learn-more">Join the Mission</a>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+          <h3>Latest Updates | <small style="font-size: 0.5em; color: blue;">Annoucements, Sermons, Events</small></h3>
+          <ul class="list-group">        
+          
+            <?php
+            $mysqli=mysqli_connect("localhost","crmadmin_mmdbuser","@@admincrm22","crmadmin_mmdb");
+              // $mysqli = new mysqli("localhost","root","","mmdb");
+
+              if ($mysqli -> connect_errno) {
+                echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+                exit();
+              }
+
+              $sql = "SELECT id, title, category ORDER BY created_at DESC  FROM programmes LIMIT 0,10" ;
+              
+              if ($result = $mysqli -> query($sql)) {
+                echo "Tony";
+                while ($row = $result -> fetch_row()) {
+                  echo '<li class="list-group-item"><a href="/post/'.$row['id'].'" '.$row['title'].' - Category: <small><i>'.$row['category'].'</i></small></li>';                
+                }
+                $result -> free_result();
+              }
+
+              $mysqli -> close();
+            ?>
+            </ul>
           </div>
         </div>
 
