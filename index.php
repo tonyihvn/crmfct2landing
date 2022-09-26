@@ -144,20 +144,21 @@
           <ul class="list-group">        
           
             <?php
-            $mysqli=mysqli_connect("localhost","crmadmin_mmdbuser","@@admincrm22","crmadmin_mmdb");
-              // $mysqli = new mysqli("localhost","root","","mmdb");
+
+            // $mysqli=mysqli_connect("localhost","crmadmin_mmdbuser","@@admincrm22","crmadmin_mmdb");
+              $mysqli = new mysqli("localhost","root","","mmdb");
 
               if ($mysqli -> connect_errno) {
                 echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
                 exit();
               }
 
-              $sql = "SELECT id, title, category ORDER BY created_at DESC  FROM programmes LIMIT 0,10" ;
+              $sql = "SELECT id, title, category FROM programmes ORDER BY created_at DESC  LIMIT 0,10" ;
               
-              if ($result = $mysqli -> query($sql)) {
-                echo "Tony";
-                while ($row = $result -> fetch_row()) {
-                  echo '<li class="list-group-item"><a href="/post/'.$row['id'].'" '.$row['title'].' - Category: <small><i>'.$row['category'].'</i></small></li>';                
+              if ($result = $mysqli->query($sql)) {
+                
+                while ($row = $result->fetch_assoc()) {
+                  echo '<li class="list-group-item"><a href="https://account.crmfct2.org/gpost/'.$row["id"].'" style="color: #0f2f57"> '.$row["title"].' </a><small style="font-size: 0.6em;"> - '.$row["category"].'</small></li>';                
                 }
                 $result -> free_result();
               }
