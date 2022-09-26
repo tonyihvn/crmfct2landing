@@ -44,7 +44,7 @@
           <li><a class="nav-link scrollto" href="#Programme">Programme</a></li>
           <li><a class="nav-link scrollto" href="#Testimonies">Testimonies</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="http://account.crmfct2.org/">Become a Member</a></li>
+          <li><a class="getstarted scrollto" href="https://account.crmfct2.org/">Become a Member</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -418,7 +418,7 @@
         <div class="text-center">
           <h3>Become a Member</h3>
           <p> Register as a member with us and enjoy deeper fellowship with us</p>
-          <a class="cta-btn" href="http://account.crmfct2.org/">Click Here</a>
+          <a class="cta-btn" href="https://account.crmfct2.org/">Click Here</a>
         </div>
 
       </div>
