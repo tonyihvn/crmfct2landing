@@ -108,7 +108,7 @@
   
   <main id="main">
     <section>
-      <div style="margin-left:15%;margin-right:10%; background-color:#123a6d;">
+      <div style="margin-left:15%;margin-right:10%;">
       <div class="text-center">
           <h3>Watch Live Programme</h3>
           <p> From CRM, Abundant Life Assembly, Jabi, Abuja</p><br>
