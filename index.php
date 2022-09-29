@@ -105,8 +105,14 @@
 
     </div>
   </section><!-- End Hero -->
-
+  
   <main id="main">
+    <section>
+      <div style="margin-left:10%;margin-right:10%;">
+      <div id="vidlive-yt-embed-6649"></div><script src="https://www.vidlive.co/yt-embed/6649/embed.js"></script>
+                    
+      </div>
+    </section>
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
