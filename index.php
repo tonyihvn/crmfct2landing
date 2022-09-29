@@ -108,8 +108,12 @@
   
   <main id="main">
     <section>
-      <div style="margin-left:10%;margin-right:10%;">
-      <div id="vidlive-yt-embed-6649"></div><script src="https://www.vidlive.co/yt-embed/6649/embed.js"></script>
+      <div style="margin-left:15%;margin-right:10%; background-color:#123a6d;">
+      <div class="text-center">
+          <h3>Watch Live Programme</h3>
+          <p> From CRM, Abundant Life Assembly, Jabi, Abuja</p><br>
+          <a class="cta-btn" href="https://crmfct2.org/livestream.php">Click Here</a>
+</div>
                     
       </div>
     </section>
