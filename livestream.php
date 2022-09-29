@@ -62,9 +62,9 @@
           <p>Live From CRM, Abundant life Assembly</p>
         </div>
 
-        <div class="row content">
-        <section>
-                <div style="margin-left:10%;margin-right:10%;">
+        <div>
+
+                <div style="margin-left:3%;margin-right:3%;">
                 <div id="vidlive-yt-embed-6649"></div><script src="https://www.vidlive.co/yt-embed/6649/embed.js"></script>
                                 
                 </div>
