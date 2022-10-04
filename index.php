@@ -107,11 +107,13 @@
   </section><!-- End Hero -->
   
   <main id="main">
-    <div style="width:100%;max-height:200px;margin-top:5px;">
+    <section>
+    <div style="width:100%;max-height:200px;margin-top:5px;margin-bottom:3px;">
       <a href="https://crmfct2.org/livestream.php">
         <img src="assets/img/livestream.jpg" alt="" class="img-fluid">
       </a>
     </div>
+    </section>
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
