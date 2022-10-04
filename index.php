@@ -107,16 +107,11 @@
   </section><!-- End Hero -->
   
   <main id="main">
-    <section>
-      <div style="margin-left:15%;margin-right:10%;">
-      <div class="text-center">
-          <h3>Watch Live Programme</h3>
-          <p> From CRM, Abundant Life Assembly, Jabi, Abuja</p><br>
-          <a class="cta-btn" href="https://crmfct2.org/livestream.php">Click Here</a>
-</div>
-                    
-      </div>
-    </section>
+    <div style="width:100%;max-height:200px;margin-top:5px;">
+      <a href="https://crmfct2.org/livestream.php">
+        <img src="assets/img/livestream.jpg" alt="" class="img-fluid">
+      </a>
+    </div>
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">

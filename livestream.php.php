@@ -59,12 +59,11 @@
 
         <div class="section-title" style="margin-top:50px">
           <h2>Livestream</h2>
-          <p>Live From CRM, Abundant life Assembly</p>
         </div>
 
         <div>
 
-                <div style="margin-left:3%;margin-right:3%;">
+                <div style="margin-left:0.5%;margin-right:0.5%;">
                 <div id="vidlive-yt-embed-6649"></div><script src="https://www.vidlive.co/yt-embed/6649/embed.js"></script>
                                 
                 </div>
