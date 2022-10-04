@@ -108,9 +108,9 @@
   
   <main id="main">
     <section class="about">
-    <div style="width:100%;max-height:200px;margin-top:5px;margin-bottom:3px;">
+    <div style="width:100%;margin-top:0.5px;margin-bottom:1px;">
       <a href="https://crmfct2.org/livestream.php">
-        <img src="assets/img/livestream.jpg" alt="" class="img-fluid">
+        <img src="assets/img/livestream.jpg" alt="" class="" style="width:100%;height: Auto;">
       </a>
     </div>
     </section>
