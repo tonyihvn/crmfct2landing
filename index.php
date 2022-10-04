@@ -107,7 +107,7 @@
   </section><!-- End Hero -->
   
   <main id="main">
-    <section>
+    <section class="about">
     <div style="width:100%;max-height:200px;margin-top:5px;margin-bottom:3px;">
       <a href="https://crmfct2.org/livestream.php">
         <img src="assets/img/livestream.jpg" alt="" class="img-fluid">
