@@ -64,7 +64,7 @@
         <div>
 
           <div style="margin-left:0.5%;margin-right:0.5%;">
-          <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/abundantlifeassemblycrm/live" width="100%" height="1000px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/abundantlifeassemblycrm/live" width="100%" height="500px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
             <!--
           <div id="vidlive-yt-embed-6649"></div><script src="https://www.vidlive.co/yt-embed/6649/embed.js"></script>
             -->               
